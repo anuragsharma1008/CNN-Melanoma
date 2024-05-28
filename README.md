@@ -24,6 +24,8 @@ To build a CNN based model which can accurately detect melanoma. Melanoma is a t
 3. The plots show that gap between training accuracy and validation accuracy have decreased significantly from previous model, and it has achieved around 75% accuracy on the validation set.
 4. The difference in accuracy between training and validation accuracy is very less
 5. The Model can be further improved by tuning the hyperparameters
+6. If the model overfits (high training accuracy but low validation accuracy), consider applying regularization techniques such as Dropout, L2 regularization, or increasing the amount of training data. If the model underfits (low training and validation accuracy), consider using a more complex model or fine-tuning hyperparameters.
+7. A CNN model can be very effective in detecting melanoma from images of skin lesions. By carefully preparing the data, defining an appropriate model architecture, and applying necessary augmentation and regularization techniques, you can build a model that generalizes well to unseen data. This can assist in early detection of melanoma, potentially saving lives through timely medical intervention.
 
 
 ## Technologies Used
